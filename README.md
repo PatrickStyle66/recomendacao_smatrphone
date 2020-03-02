@@ -1,4 +1,4 @@
-#Sistema De Recomendação de Smartphones
+# Sistema De Recomendação de Smartphones
 sistema feito para a disciplina Inteligência Artificial ministrada pelo Prof. Evandro Barros. Baseado em OWL (Web Ontology Language) com interface em Python.
 
 Alunos:
