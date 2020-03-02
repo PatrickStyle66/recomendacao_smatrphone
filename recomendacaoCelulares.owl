@@ -1,0 +1,3187 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/alexandre/ontologies/2020/1/untitled-ontology-22"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/alexandre/ontologies/2020/1/untitled-ontology-22">
+    <Prefix name="" IRI="http://www.semanticweb.org/alexandre/ontologies/2020/1/untitled-ontology-22"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#CelularesDisponiveis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galaxy_A30s"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galaxy_Note_10_Lite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galaxy_Note_9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galaxy_S10_Plus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galaxy_S7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Huawei_P30_Pro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Huawei_P_Smart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Image"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lg_G2_Mini_Lite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lg_K7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lg_Q_Note_Plus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motorola_E4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motorola_EX128"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motorola_G7_Plus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motorola_One_Hyper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Multilaser_E_Lite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Palm_Phone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Redmi_8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#URL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xiaomi_MI_9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xiaomi_MI_A3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xiaomi_MI_Mix_2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xiaomi_QIN_AI_Pro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zenfone_Max_Shot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zenfone_Zoom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zenfone_Zoom_S"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#iPhone_11"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#iPhone_6s"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#iPhone_8_Plus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#iPhone_XS_Max"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Android"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CameraFrontal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Dualchip"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ReconhecimentoFacial"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ResistenciaAgua"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#TelaHD"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#UsbTipoC"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ValorEntreMilEDoisMil"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ValorMaiorQueDoisMil"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ValorMenorQueMil"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Video4K"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#WiFi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#iOS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Consulta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#false"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#true"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/domainIncludes"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/rangeIncludes"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#image"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Galaxy_A30s"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorEntreMilEDoisMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Galaxy_Note_10_Lite"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorMaiorQueDoisMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Galaxy_Note_9"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorMaiorQueDoisMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Galaxy_S10_Plus"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorMaiorQueDoisMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Galaxy_S7"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorMaiorQueDoisMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Huawei_P30_Pro"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorMaiorQueDoisMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Huawei_P_Smart"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorEntreMilEDoisMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Lg_G2_Mini_Lite"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorMenorQueMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Lg_K7"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorMenorQueMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Lg_Q_Note_Plus"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorEntreMilEDoisMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Motorola_E4"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorMenorQueMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Motorola_EX128"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorMenorQueMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Motorola_G7_Plus"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorMenorQueMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Motorola_One_Hyper"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorEntreMilEDoisMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Multilaser_E_Lite"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorMenorQueMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Palm_Phone"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorMenorQueMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Redmi_8"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorEntreMilEDoisMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Xiaomi_MI_9"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorMaiorQueDoisMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Xiaomi_MI_A3"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorEntreMilEDoisMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Xiaomi_MI_Mix_2"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorMaiorQueDoisMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Xiaomi_QIN_AI_Pro"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorMenorQueMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Zenfone_Max_Shot"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorMenorQueMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Zenfone_Zoom"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorEntreMilEDoisMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Zenfone_Zoom_S"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Android"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorEntreMilEDoisMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#iPhone_11"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorMaiorQueDoisMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#iOS"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#iPhone_6s"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorEntreMilEDoisMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#iOS"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#iPhone_8_Plus"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorMaiorQueDoisMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#iOS"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#iPhone_XS_Max"/>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CameraFrontal"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Dualchip"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#LeitorBiometrico"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ReconhecimentoFacial"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ResistenciaAgua"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#TelaHD"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#UsbTipoC"/>
+                <NamedIndividual IRI="#false"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#ValorMaiorQueDoisMil"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Video4K"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#WiFi"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#iOS"/>
+                <NamedIndividual IRI="#true"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#CelularesDisponiveis"/>
+        <Class IRI="#Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galaxy_A30s"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galaxy_Note_10_Lite"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galaxy_Note_9"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galaxy_S10_Plus"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galaxy_S7"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Huawei_P30_Pro"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Huawei_P_Smart"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Image"/>
+        <Class IRI="#Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lg_G2_Mini_Lite"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lg_K7"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lg_Q_Note_Plus"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motorola_E4"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motorola_EX128"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motorola_G7_Plus"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motorola_One_Hyper"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Multilaser_E_Lite"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Palm_Phone"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Redmi_8"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#URL"/>
+        <Class IRI="#Image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xiaomi_MI_9"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xiaomi_MI_A3"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xiaomi_MI_Mix_2"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xiaomi_QIN_AI_Pro"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zenfone_Max_Shot"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zenfone_Zoom"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zenfone_Zoom_S"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#iPhone_11"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#iPhone_6s"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#iPhone_8_Plus"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#iPhone_XS_Max"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </SubClassOf>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#false"/>
+        <NamedIndividual IRI="#true"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <NamedIndividual IRI="#Consulta"/>
+        <NamedIndividual IRI="#true"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Dualchip"/>
+        <NamedIndividual IRI="#Consulta"/>
+        <NamedIndividual IRI="#false"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <NamedIndividual IRI="#Consulta"/>
+        <NamedIndividual IRI="#true"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ReconhecimentoFacial"/>
+        <NamedIndividual IRI="#Consulta"/>
+        <NamedIndividual IRI="#true"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ResistenciaAgua"/>
+        <NamedIndividual IRI="#Consulta"/>
+        <NamedIndividual IRI="#true"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TelaHD"/>
+        <NamedIndividual IRI="#Consulta"/>
+        <NamedIndividual IRI="#true"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#UsbTipoC"/>
+        <NamedIndividual IRI="#Consulta"/>
+        <NamedIndividual IRI="#false"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ValorMaiorQueDoisMil"/>
+        <NamedIndividual IRI="#Consulta"/>
+        <NamedIndividual IRI="#true"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Video4K"/>
+        <NamedIndividual IRI="#Consulta"/>
+        <NamedIndividual IRI="#true"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WiFi"/>
+        <NamedIndividual IRI="#Consulta"/>
+        <NamedIndividual IRI="#true"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#iOS"/>
+        <NamedIndividual IRI="#Consulta"/>
+        <NamedIndividual IRI="#true"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <ObjectProperty IRI="#CameraFrontal"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Dualchip"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ReconhecimentoFacial"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ResistenciaAgua"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#UsbTipoC"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ValorEntreMilEDoisMil"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ValorMaiorQueDoisMil"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ValorMenorQueMil"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Video4K"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#iOS"/>
+        <Class IRI="#CelularesDisponiveis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Galaxy_A30s"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Galaxy_Note_10_Lite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Galaxy_Note_9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Galaxy_S10_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Galaxy_S7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Huawei_P30_Pro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Huawei_P_Smart"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Lg_G2_Mini_Lite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Lg_K7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Lg_Q_Note_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Motorola_E4"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Motorola_EX128"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Motorola_G7_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Motorola_One_Hyper"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Multilaser_E_Lite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Palm_Phone"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Redmi_8"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Xiaomi_MI_9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Xiaomi_MI_A3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Xiaomi_MI_Mix_2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Xiaomi_QIN_AI_Pro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Zenfone_Max_Shot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Zenfone_Zoom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Android"/>
+        <Class IRI="#Zenfone_Zoom_S"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Galaxy_A30s"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Galaxy_Note_10_Lite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Galaxy_Note_9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Galaxy_S10_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Galaxy_S7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Huawei_P30_Pro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Huawei_P_Smart"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Lg_G2_Mini_Lite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Lg_K7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Lg_Q_Note_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Motorola_E4"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Motorola_G7_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Motorola_One_Hyper"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Multilaser_E_Lite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Palm_Phone"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Redmi_8"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Xiaomi_MI_9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Xiaomi_MI_A3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Xiaomi_MI_Mix_2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Zenfone_Max_Shot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Zenfone_Zoom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#Zenfone_Zoom_S"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#iPhone_11"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#iPhone_6s"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#iPhone_8_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CameraFrontal"/>
+        <Class IRI="#iPhone_XS_Max"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Dualchip"/>
+        <Class IRI="#Galaxy_A30s"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Dualchip"/>
+        <Class IRI="#Galaxy_Note_10_Lite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Dualchip"/>
+        <Class IRI="#Galaxy_Note_9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Dualchip"/>
+        <Class IRI="#Galaxy_S10_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Dualchip"/>
+        <Class IRI="#Huawei_P30_Pro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Dualchip"/>
+        <Class IRI="#Huawei_P_Smart"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Dualchip"/>
+        <Class IRI="#Lg_K7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Dualchip"/>
+        <Class IRI="#Lg_Q_Note_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Dualchip"/>
+        <Class IRI="#Motorola_E4"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Dualchip"/>
+        <Class IRI="#Motorola_EX128"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Dualchip"/>
+        <Class IRI="#Motorola_G7_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Dualchip"/>
+        <Class IRI="#Motorola_One_Hyper"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Dualchip"/>
+        <Class IRI="#Multilaser_E_Lite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Dualchip"/>
+        <Class IRI="#Redmi_8"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Dualchip"/>
+        <Class IRI="#Xiaomi_MI_9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Dualchip"/>
+        <Class IRI="#Xiaomi_MI_A3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Dualchip"/>
+        <Class IRI="#Xiaomi_MI_Mix_2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Dualchip"/>
+        <Class IRI="#Zenfone_Max_Shot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Dualchip"/>
+        <Class IRI="#Zenfone_Zoom_S"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#Galaxy_A30s"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#Galaxy_Note_10_Lite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#Galaxy_Note_9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#Galaxy_S10_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#Galaxy_S7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#Huawei_P30_Pro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#Huawei_P_Smart"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#Lg_Q_Note_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#Motorola_E4"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#Motorola_G7_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#Motorola_One_Hyper"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#Redmi_8"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#Xiaomi_MI_9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#Xiaomi_MI_A3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#Xiaomi_MI_Mix_2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#Zenfone_Max_Shot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#Zenfone_Zoom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#Zenfone_Zoom_S"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#iPhone_11"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#iPhone_6s"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LeitorBiometrico"/>
+        <Class IRI="#iPhone_8_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ReconhecimentoFacial"/>
+        <Class IRI="#Galaxy_Note_10_Lite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ReconhecimentoFacial"/>
+        <Class IRI="#Galaxy_S10_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ReconhecimentoFacial"/>
+        <Class IRI="#Huawei_P30_Pro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ReconhecimentoFacial"/>
+        <Class IRI="#Lg_Q_Note_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ReconhecimentoFacial"/>
+        <Class IRI="#Motorola_One_Hyper"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ReconhecimentoFacial"/>
+        <Class IRI="#Redmi_8"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ReconhecimentoFacial"/>
+        <Class IRI="#Xiaomi_MI_9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ReconhecimentoFacial"/>
+        <Class IRI="#Xiaomi_MI_A3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ReconhecimentoFacial"/>
+        <Class IRI="#Zenfone_Max_Shot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ReconhecimentoFacial"/>
+        <Class IRI="#iPhone_11"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ReconhecimentoFacial"/>
+        <Class IRI="#iPhone_6s"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ReconhecimentoFacial"/>
+        <Class IRI="#iPhone_8_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ReconhecimentoFacial"/>
+        <Class IRI="#iPhone_XS_Max"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ResistenciaAgua"/>
+        <Class IRI="#Galaxy_Note_9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ResistenciaAgua"/>
+        <Class IRI="#Galaxy_S10_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ResistenciaAgua"/>
+        <Class IRI="#Galaxy_S7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ResistenciaAgua"/>
+        <Class IRI="#Huawei_P30_Pro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ResistenciaAgua"/>
+        <Class IRI="#Palm_Phone"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ResistenciaAgua"/>
+        <Class IRI="#iPhone_11"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ResistenciaAgua"/>
+        <Class IRI="#iPhone_XS_Max"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#Galaxy_A30s"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#Galaxy_Note_10_Lite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#Galaxy_Note_9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#Galaxy_S10_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#Galaxy_S7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#Huawei_P30_Pro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#Huawei_P_Smart"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#Lg_Q_Note_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#Motorola_E4"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#Motorola_G7_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#Motorola_One_Hyper"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#Redmi_8"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#Xiaomi_MI_9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#Xiaomi_MI_A3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#Xiaomi_MI_Mix_2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#Zenfone_Max_Shot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#Zenfone_Zoom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#Zenfone_Zoom_S"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#iPhone_11"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#iPhone_6s"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#iPhone_8_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TelaHD"/>
+        <Class IRI="#iPhone_XS_Max"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsbTipoC"/>
+        <Class IRI="#Galaxy_A30s"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsbTipoC"/>
+        <Class IRI="#Galaxy_Note_10_Lite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsbTipoC"/>
+        <Class IRI="#Galaxy_Note_9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsbTipoC"/>
+        <Class IRI="#Huawei_P30_Pro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsbTipoC"/>
+        <Class IRI="#Lg_Q_Note_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsbTipoC"/>
+        <Class IRI="#Motorola_G7_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsbTipoC"/>
+        <Class IRI="#Motorola_One_Hyper"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsbTipoC"/>
+        <Class IRI="#Palm_Phone"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsbTipoC"/>
+        <Class IRI="#Redmi_8"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsbTipoC"/>
+        <Class IRI="#Xiaomi_MI_9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsbTipoC"/>
+        <Class IRI="#Xiaomi_MI_A3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsbTipoC"/>
+        <Class IRI="#Xiaomi_MI_Mix_2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsbTipoC"/>
+        <Class IRI="#Xiaomi_QIN_AI_Pro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsbTipoC"/>
+        <Class IRI="#Zenfone_Zoom_S"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Video4K"/>
+        <Class IRI="#Galaxy_Note_10_Lite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Video4K"/>
+        <Class IRI="#Galaxy_Note_9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Video4K"/>
+        <Class IRI="#Galaxy_S10_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Video4K"/>
+        <Class IRI="#Galaxy_S7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Video4K"/>
+        <Class IRI="#Huawei_P30_Pro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Video4K"/>
+        <Class IRI="#Motorola_G7_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Video4K"/>
+        <Class IRI="#Motorola_One_Hyper"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Video4K"/>
+        <Class IRI="#Xiaomi_MI_9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Video4K"/>
+        <Class IRI="#Xiaomi_MI_A3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Video4K"/>
+        <Class IRI="#Xiaomi_MI_Mix_2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Video4K"/>
+        <Class IRI="#Zenfone_Zoom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Video4K"/>
+        <Class IRI="#Zenfone_Zoom_S"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Video4K"/>
+        <Class IRI="#iPhone_11"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Video4K"/>
+        <Class IRI="#iPhone_6s"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Video4K"/>
+        <Class IRI="#iPhone_8_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Video4K"/>
+        <Class IRI="#iPhone_XS_Max"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Galaxy_A30s"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Galaxy_Note_10_Lite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Galaxy_Note_9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Galaxy_S10_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Galaxy_S7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Huawei_P30_Pro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Huawei_P_Smart"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Lg_G2_Mini_Lite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Lg_K7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Lg_Q_Note_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Motorola_E4"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Motorola_G7_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Motorola_One_Hyper"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Multilaser_E_Lite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Palm_Phone"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Redmi_8"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Xiaomi_MI_9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Xiaomi_MI_A3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Xiaomi_MI_Mix_2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Xiaomi_QIN_AI_Pro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Zenfone_Max_Shot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Zenfone_Zoom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#Zenfone_Zoom_S"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#iPhone_11"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#iPhone_6s"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#iPhone_8_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WiFi"/>
+        <Class IRI="#iPhone_XS_Max"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#iOS"/>
+        <Class IRI="#iPhone_11"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#iOS"/>
+        <Class IRI="#iPhone_6s"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#iOS"/>
+        <Class IRI="#iPhone_8_Plus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#iOS"/>
+        <Class IRI="#iPhone_XS_Max"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Galaxy_A30s</IRI>
+        <Literal>https://www.tudocelular.com/Samsung/fichas-tecnicas/n5693/Samsung-Galaxy-A30s.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Galaxy_A30s</IRI>
+        <Literal>https://t.tudocdn.net/473299?w=143&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Galaxy_A30s</IRI>
+        <Literal>Samsung Galaxy A30s é um smartphone Android de bom nível, ótimo para fotos, que pode satisfazer até o mais exigente dos usuários. Tem uma enorme tela Touchscreen de 6.4 polegadas com uma resolução de 1560x720 pixel que não é das mais elevadas. Sobre as características deste Samsung Galaxy A30s na verdade não falta nada. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS. Tem também leitor multimídia, rádio, videoconferência, TV e bluetooth. Enfatizamos a boa memória interna de 64 GB com a possibilidade de expansão.
+O Samsung Galaxy A30s é um produto com poucos concorrentes em termos de multimídia graças à câmera de 25 megapixels que permite ao Samsung Galaxy A30s tirar fotos fantásticas com uma resolução de 5774x4330 pixels e gravar vídeos em alta definição (Full HD) com uma resolução de 1920x1080 pixels. Muito fino, 7.7 milímetros, o que torna o Samsung Galaxy A30s realmente interessante.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Galaxy_A30s</IRI>
+        <Literal>Samsung Galaxy A30s</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Galaxy_Note_10_Lite</IRI>
+        <Literal>https://www.tudocelular.com/Samsung/fichas-tecnicas/n6028/Samsung-Galaxy-Note-10-Lite.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Galaxy_Note_10_Lite</IRI>
+        <Literal>https://t.tudocdn.net/509306?w=141&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Galaxy_Note_10_Lite</IRI>
+        <Literal>O Samsung Galaxy Note 10 Lite é um smartphone Android avançado e abrangente em todos os pontos de vista com algumas características excelentes. Tem uma grande tela de 6.7 polegadas com uma resolução de 2400x1080 pixels. As funcionalidades oferecidas pelo Samsung Galaxy Note 10 Lite são muitas e inovadoras. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet. Enfatizamos a excelente memória interna de 128 GB com a possibilidade de expansão.
+Respeitável a câmera de 12 megapixels que permite ao Samsung Galaxy Note 10 Lite tirar fotos com uma resolução de 4000x3000 pixels e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels. Muito fino, 8.7 milímetros, o que torna o Samsung Galaxy Note 10 Lite realmente interessante.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Galaxy_Note_10_Lite</IRI>
+        <Literal>Samsung Galaxy Note 10 Lite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Galaxy_Note_9</IRI>
+        <Literal>https://www.tudocelular.com/Samsung/fichas-tecnicas/n3988/Samsung-Galaxy-Note-9.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Galaxy_Note_9</IRI>
+        <Literal>https://t.tudocdn.net/348797?w=143&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Galaxy_Note_9</IRI>
+        <Literal>O Samsung Galaxy Note 9 é um dos smartphones Android mais avançados e completos que existem em circulação. Tem um grande display de 6.4 polegadas e uma resolução de 2960x1440 pixels que é uma das mais altas atualmente em circulação. As funcionalidades oferecidas pelo Samsung Galaxy Note 9 são muitas e inovadoras. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet. Enfatizamos a excelente memória interna de 128 GB com a possibilidade de expansão.
+Câmera discreta de 12 megapixel mas que permite ao Samsung Galaxy Note 9 tirar fotos de boa qualidade com uma resolução de 4290x2800 pixel e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Galaxy_Note_9</IRI>
+        <Literal>Samsung Galaxy Note 9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Galaxy_S10_Plus</IRI>
+        <Literal>https://t.tudocdn.net/379769?w=143&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Galaxy_S10_Plus</IRI>
+        <Literal>Samsung Galaxy S10 Plus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Galaxy_S7</IRI>
+        <Literal>https://www.tudocelular.com/Samsung/fichas-tecnicas/n3124/Samsung-Galaxy-S7.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Galaxy_S7</IRI>
+        <Literal>https://t.tudocdn.net/200801?w=146&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Galaxy_S7</IRI>
+        <Literal>O Samsung Galaxy S7 é um smartphone Android de bom nível, ótimo para fotos, que pode satisfazer até o mais exigente dos usuários. Tem uma grande tela Touchscreen de 5.1 polegadas com uma boa resolução de 2560x1440 pixels. Sobre as características deste Samsung Galaxy S7 na verdade não falta nada. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS. Tem também leitor multimídia, videoconferência e bluetooth. Enfatizamos a boa memória interna de 32 GB com a possibilidade de expansão.
+O Samsung Galaxy S7 é um produto com poucos concorrentes em termos de multimídia graças à câmera de 12 megapixels que permite ao Samsung Galaxy S7 tirar fotos de alta qualidade com uma resolução de 4290x2800 pixels e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels. Muito fino, 7.9 milímetros, o que torna o Samsung Galaxy S7 realmente interessante.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Galaxy_S7</IRI>
+        <Literal>Samsung Galaxy S7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Huawei_P30_Pro</IRI>
+        <Literal>https://www.tudocelular.com/Huawei/fichas-tecnicas/n5367/Huawei-P30-Pro.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Huawei_P30_Pro</IRI>
+        <Literal>https://t.tudocdn.net/385025?w=141&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Huawei_P30_Pro</IRI>
+        <Literal>O Huawei P30 Pro é um smartphone Android com características inovadoras que o tornam uma excelente opção para qualquer tipo de utilização, representando um dos melhores dispositivos móveis já feitos. A tela de 6.47 polegadas coloca esse Huawei no topo de sua categoria. A resolução também é alta: 2340x1080 pixel. As funcionalidades oferecidas pelo Huawei P30 Pro são muitas e todas top de linha. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS presente no aparelho. Tem também leitor multimídia, videoconferência, e bluetooth. Enfatizamos a excelente memória interna de 256 GB com a possibilidade de expansão.
+A excelência deste Huawei P30 Pro é completada por uma câmera de 40 megapixels que permite tirar fotos fantásticas com uma resolução de 7303x5477 pixels e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels. A espessura de 8.4 milímetros é realmente ótima e torna o Huawei P30 Pro ainda mais espetacular.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Huawei_P30_Pro</IRI>
+        <Literal>Huawei P30 Pro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Huawei_P_Smart</IRI>
+        <Literal>https://www.tudocelular.com/Huawei/fichas-tecnicas/n5060/Huawei-P-smart-2019.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Huawei_P_Smart</IRI>
+        <Literal>https://t.tudocdn.net/368933?w=144&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Huawei_P_Smart</IRI>
+        <Literal>O Huawei P smart 2019 é um smartphone Android de bom nível, ótimo para fotos, que pode satisfazer até o mais exigente dos usuários. Tem uma enorme tela Touchscreen de 6.21 polegadas com uma resolução de 2340x1080 pixel. Sobre as características deste Huawei P smart 2019 na verdade não falta nada. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS. Tem também leitor multimídia, rádio, videoconferência e bluetooth. Enfatizamos a boa memória interna de 64 GB com a possibilidade de expansão.
+O Huawei P smart 2019 é um produto com poucos concorrentes em termos de multimídia graças à câmera de 13 megapixels que permite ao Huawei P smart 2019 tirar fotos fantásticas com uma resolução de 4163x3122 pixels e gravar vídeos em alta definição (Full HD) com uma resolução de 1920x1080 pixels. Muito fino, 8 milímetros, o que torna o Huawei P smart 2019 realmente interessante.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Huawei_P_Smart</IRI>
+        <Literal>Huawei P smart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Image</IRI>
+        <Literal>An image file.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Image</IRI>
+        <Literal>Image</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Lg_G2_Mini_Lite</IRI>
+        <Literal>https://www.tudocelular.com/LG/fichas-tecnicas/n2625/LG-G2-mini-LTE.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Lg_G2_Mini_Lite</IRI>
+        <Literal>https://t.tudocdn.net/83514?w=156&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lg_G2_Mini_Lite</IRI>
+        <Literal>O LG G2 mini LTE é um smartphone Android simples, mas com funcionalidades completas, mas ainda oferece poucas funcionalidades para lazer e diversão. As funcionalidades oferecidas pelo LG G2 mini LTE são mais ou menos as presentes em todos os dispositivos mais avançados, começando com a conectividade Wi-fi e o GPS. Dispõe além de mp3 player, radio, video conferência e bluetooth. Enfatizamos a 8 GB com a possibilidade de expansão. A transferência de dados e navegação web sao fornecidas pela rede UMTS, mas não suporta tecnologias mais recentes, tais como HSDPA.
+Tem uma grande tela Touchscreen de 4.7 polegadas com uma resolução de 960x540 pixels. O LG G2 mini LTE é um produto com poucos concorrentes em termos de multimídia graças à câmera de 8 megapixels que permite ao LG G2 mini LTE tirar fotos fantásticas com uma resolução de 3264x2448 pixels e gravar vídeos em alta definição (Full HD) com uma resolução de 1920x1080 pixels. Muito fino, 9.8 milímetros, o que torna o LG G2 mini LTE realmente bom para o transporte.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lg_G2_Mini_Lite</IRI>
+        <Literal>LG G2 mini LTE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Lg_K7</IRI>
+        <Literal>https://www.tudocelular.com/LG/fichas-tecnicas/n3096/LG-K7.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Lg_K7</IRI>
+        <Literal>https://t.tudocdn.net/157216?w=160&amp;h=289</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lg_K7</IRI>
+        <Literal>O LG K7 é um smartphone Android simples, mas com funcionalidades completas, mas ainda oferece poucas funcionalidades para lazer e diversão. As funcionalidades oferecidas pelo LG K7 são mais ou menos as presentes em todos os dispositivos mais avançados, começando com a conectividade Wi-fi e o GPS. Dispõe além de mp3 player, video conferência e bluetooth. Enfatizamos a 8 GB com a possibilidade de expansão. Excelente a transferência de dados e navegação web através do suporte HSDPA e HSUPA.
+Tem uma enorme tela Touchscreen de 5 polegadas com uma resolução de 854x480 pixel que não é das mais elevadas. Ótima a câmera de 5 megapixels que permite ao LG K7 tirar fotos de alta qualidade com uma resolução de 2592x1944 pixels e gravar vídeos. Muito fino, 8.9 milímetros, o que torna o LG K7 realmente bom para o transporte.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lg_K7</IRI>
+        <Literal>LG K7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Lg_Q_Note_Plus</IRI>
+        <Literal>https://www.tudocelular.com/LG/fichas-tecnicas/n5079/LG-Q-Note-Plus.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Lg_Q_Note_Plus</IRI>
+        <Literal>https://t.tudocdn.net/365081?w=147&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lg_Q_Note_Plus</IRI>
+        <Literal>LG Q Note Plus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lg_Q_Note_Plus</IRI>
+        <Literal>O LG Q Note Plus é um smartphone Android completo, que não tem muito a invejar aos mais avançados dispositivos. Surpreendente é sua tela Touchscreen de 6.2 polegadas, que coloca esse LG no topo de sua categoria. A resolução também é alta: 2160x1080 pixel. Quanto às funções, no LG Q Note Plus realmente não falta nada. Começando pelo conectividade Wi-fi e GPS. A transferência de dados e navegação web sao fornecidas pela rede UMTS, mas não suporta tecnologias mais recentes, tais como HSDPA. Enfatizamos a boa memória interna de 64 GB com a possibilidade de expansão.
+Este LG Q Note Plus é um produto com poucos concorrentes em termos de multimídia graças à câmera de 16 megapixels que permite ao LG Q Note Plus tirar fotos fantásticas com uma resolução de 4619x3464 pixels e gravar vídeos em alta definição (Full HD) com uma resolução de 1920x1080 pixels. Muito fino, 8.1 milímetros, o que torna o LG Q Note Plus realmente interessante.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Motorola_E4</IRI>
+        <Literal>https://www.tudocelular.com/Motorola/fichas-tecnicas/n3620/Motorola-Moto-E4.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Motorola_E4</IRI>
+        <Literal>https://t.tudocdn.net/270472?w=152&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Motorola_E4</IRI>
+        <Literal>O Motorola Moto E4 é um smartphone Android mediano, ideal para quem não tem muitas exigências mas não abre mão de um bom display touchscreen. As funções oferecidas pelo Motorola Moto E4 são mais ou menos as mesmas oferecidas em outros dispositivos avançados, começando com a conectividade Wi-fi e GPS. Tem leitor multimídia, videoconferência e bluetooth. Enfatizamos a boa memória interna de 16 GB com a possibilidade de expansão. A transferência de dados e navegação web sao fornecidas pela rede UMTS, mas não suporta tecnologias mais recentes, tais como HSDPA.
+Tem uma grande tela Touchscreen de 5 polegadas com uma resolução de 1280x720 pixels. Ótima a câmera de 8 megapixels que permite ao Motorola Moto E4 tirar fotos fantásticas com uma resolução de 3266x2449 pixels e gravar vídeos com uma resolução de 1280x720 pixel. Muito fino, 8.9 milímetros, o que torna o Motorola Moto E4 realmente bom para o transporte.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Motorola_E4</IRI>
+        <Literal>Motorola Moto E4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Motorola_EX128</IRI>
+        <Literal>https://www.tudocelular.com/Motorola/fichas-tecnicas/n2168/Motorola-EX128.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Motorola_EX128</IRI>
+        <Literal>https://t.tudocdn.net/52917_4?w=100&amp;h=200</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Motorola_EX128</IRI>
+        <Literal>O Motorola EX128 possui uma tela sensível ao toque de 3,2 polegadas, câmera de 3,2 megapixels, estéreo Bluetooth, reprodutor de música, rádio estéreo FM e slot para cartão de memória microSD.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Motorola_EX128</IRI>
+        <Literal>Motorola EX128</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Motorola_G7_Plus</IRI>
+        <Literal>https://www.tudocelular.com/Motorola/fichas-tecnicas/n5216/Motorola-Moto-G7-Plus.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Motorola_G7_Plus</IRI>
+        <Literal>https://t.tudocdn.net/377373?w=146&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Motorola_G7_Plus</IRI>
+        <Literal>O Motorola Moto G7 Plus é um smartphone Android avançado e abrangente em todos os pontos de vista com algumas características excelentes. Tem uma grande tela de 6.24 polegadas com uma resolução de 2270x1080 pixels. As funcionalidades oferecidas pelo Motorola Moto G7 Plus são muitas e inovadoras. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet. Enfatizamos a excelente memória interna de 64 GB com a possibilidade de expansão.
+O Motorola Moto G7 Plus é um produto com poucos concorrentes em termos de multimídia graças à câmera de 16 megapixels que permite ao Motorola Moto G7 Plus tirar fotos fantásticas com uma resolução de 4619x3464 pixels e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels. Muito fino, 8.3 milímetros, o que torna o Motorola Moto G7 Plus realmente interessante.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Motorola_G7_Plus</IRI>
+        <Literal>Motorola Moto G7 Plus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Motorola_One_Hyper</IRI>
+        <Literal>https://www.tudocelular.com/Motorola/fichas-tecnicas/n5921/Motorola-One-Hyper.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Motorola_One_Hyper</IRI>
+        <Literal>https://t.tudocdn.net/505946?w=144&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Motorola_One_Hyper</IRI>
+        <Literal>O Motorola One Hyper é, sem dúvida, um dos smartphones Android mais avançados e abrangentes disponíveis no mercado, graças ao seu rico equipamento e recursos multimídia avançados. Tem um grande display de 6.5 polegadas com uma resolução de 2340x1080 pixel. As funcionalidades oferecidas pelo Motorola One Hyper são muitas e inovadoras. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet. Enfatizamos a excelente memória interna de 128 GB com a possibilidade de expansão.
+O Motorola One Hyper é um produto com poucos concorrentes em termos de multimídia graças à câmera de 64 megapixels que permite ao Motorola One Hyper tirar fotos fantásticas com uma resolução de 9238x6928 pixels e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Motorola_One_Hyper</IRI>
+        <Literal>Motorola One Hyper</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Multilaser_E_Lite</IRI>
+        <Literal>https://www.tudocelular.com/Multilaser/fichas-tecnicas/n5975/Multilaser-E-Lite.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Multilaser_E_Lite</IRI>
+        <Literal>https://t.tudocdn.net/506233?w=157&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Multilaser_E_Lite</IRI>
+        <Literal>O Multilaser E Lite é um smartphone Android simples, mas com funcionalidades completas, mas ainda oferece poucas funcionalidades para lazer e diversão. As funcionalidades oferecidas pelo Multilaser E Lite são mais ou menos as presentes em todos os dispositivos mais avançados, começando com a conectividade Wi-fi e o GPS. Dispõe além de mp3 player, video conferência e bluetooth. Enfatizamos a boa 16 GB com a possibilidade de expansão. A transferência de dados e navegação web sao fornecidas pela rede UMTS, mas não suporta tecnologias mais recentes, tais como HSDPA.
+Tem uma ampla tela Touchscreen de 4 polegadas com uma resolução de 800x480 pixels . Ótima a câmera de 5 megapixels que permite ao Multilaser E Lite tirar fotos de alta qualidade com uma resolução de 2582x1936 pixels. Muito fino, 9.4 milímetros, o que torna o Multilaser E Lite realmente bom para o transporte.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Multilaser_E_Lite</IRI>
+        <Literal>Multilaser E Lite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Palm_Phone</IRI>
+        <Literal>https://www.tudocelular.com/Palm/fichas-tecnicas/n5623/Palm-Phone.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Palm_Phone</IRI>
+        <Literal>https://t.tudocdn.net/401810?w=159&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Palm_Phone</IRI>
+        <Literal>O Palm Phone é um smartphone Android completo, que não tem muito a invejar aos mais avançados dispositivos. A tela Touchscreen é de 3.3 polegadas com uma resolução de 1280x720 pixels. Quanto às funções, no Palm Phone realmente não falta nada. Começando pelo conectividade Wi-fi e GPS. A transferência de dados e navegação web sao fornecidas pela rede UMTS, mas não suporta tecnologias mais recentes, tais como HSDPA. Enfatizamos a boa memória interna de 32 GB mas sem a possibilidade de expansão.
+Este Palm Phone é um produto com poucos concorrentes em termos de multimídia graças à câmera de 12 megapixels que permite ao Palm Phone tirar fotos fantásticas com uma resolução de 4000x3000 pixels e gravar vídeos com uma resolução de 1280x720 pixel. Muito fino, 7.4 milímetros, o que torna o Palm Phone realmente interessante.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Palm_Phone</IRI>
+        <Literal>Palm Phone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Redmi_8</IRI>
+        <Literal>https://www.tudocelular.com/Redmi/fichas-tecnicas/n5825/Redmi-8.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Redmi_8</IRI>
+        <Literal>https://t.tudocdn.net/497684?w=146&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Redmi_8</IRI>
+        <Literal>O Redmi 8 é um smartphone Android de bom nível, ótimo para fotos, que pode satisfazer até o mais exigente dos usuários. Tem uma enorme tela Touchscreen de 6.22 polegadas com uma resolução de 1520x720 pixel que não é das mais elevadas. Sobre as características deste Redmi 8 na verdade não falta nada. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS. Tem também leitor multimídia, rádio, videoconferência e bluetooth. Enfatizamos a boa memória interna de 32 GB com a possibilidade de expansão.
+O Redmi 8 é um produto com poucos concorrentes em termos de multimídia graças à câmera de 12 megapixels que permite ao Redmi 8 tirar fotos de alta qualidade com uma resolução de 4000x3000 pixels e gravar vídeos em alta definição (Full HD) com uma resolução de 1920x1080 pixels.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Redmi_8</IRI>
+        <Literal>Redmi 8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#URL</IRI>
+        <Literal>Data type: URL.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#URL</IRI>
+        <Literal>URL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Xiaomi_MI_9</IRI>
+        <Literal>https://www.tudocelular.com/Xiaomi/fichas-tecnicas/n5276/Xiaomi-MI-9.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Xiaomi_MI_9</IRI>
+        <Literal>https://t.tudocdn.net/379451?w=144&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Xiaomi_MI_9</IRI>
+        <Literal>O Xiaomi Mi 9 é um smartphone Android com características inovadoras que o tornam uma excelente opção para qualquer tipo de utilização, representando um dos melhores dispositivos móveis já feitos. A tela de 6.39 polegadas coloca esse Xiaomi no topo de sua categoria. A resolução também é alta: 2340x1080 pixel. As funcionalidades oferecidas pelo Xiaomi Mi 9 são muitas e todas top de linha. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS presente no aparelho. Tem também leitor multimídia, videoconferência, e bluetooth. Enfatizamos a excelente memória interna de 64 GB mas sem a possibilidade de expansão.
+A excelência deste Xiaomi Mi 9 é completada por uma câmera de 48 megapixels que permite tirar fotos fantásticas com uma resolução de 8000x6000 pixels e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels. A espessura de apenas 7.6 milímetros torna o Xiaomi Mi 9 um dos telefones mais finos que existem.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Xiaomi_MI_9</IRI>
+        <Literal>Xiaomi Mi 9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Xiaomi_MI_A3</IRI>
+        <Literal>https://www.tudocelular.com/Xiaomi/fichas-tecnicas/n5597/Xiaomi-Mi-A3.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Xiaomi_MI_A3</IRI>
+        <Literal>https://t.tudocdn.net/401310?w=142&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Xiaomi_MI_A3</IRI>
+        <Literal>O Xiaomi Mi A3 é um celular Touchscreen de bom nível, ótimo para fotos, que pode satisfazer até o mais exigente dos usuários. Tem uma enorme tela Touchscreen de 6.08 polegadas com uma resolução de 1560x720 pixel que não é das mais elevadas. Sobre as características deste Xiaomi Mi A3 na verdade não falta nada. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS. Tem também leitor multimídia, videoconferência e bluetooth. Enfatizamos a boa memória interna de 64 GB com a possibilidade de expansão.
+O Xiaomi Mi A3 é um produto com poucos concorrentes em termos de multimídia graças à câmera de 48 megapixels que permite ao Xiaomi Mi A3 tirar fotos fantásticas com uma resolução de 8000x6000 pixels e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels. Muito fino, 8.5 milímetros, o que torna o Xiaomi Mi A3 realmente interessante.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Xiaomi_MI_A3</IRI>
+        <Literal>Xiaomi Mi A3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Xiaomi_MI_Mix_2</IRI>
+        <Literal>https://www.tudocelular.com/Xiaomi/fichas-tecnicas/n3686/Xiaomi-Mi-Mix-2.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Xiaomi_MI_Mix_2</IRI>
+        <Literal>https://t.tudocdn.net/287549?w=151&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Xiaomi_MI_Mix_2</IRI>
+        <Literal>O Xiaomi Mi Mix 2 é um smartphone Android avançado e abrangente em todos os pontos de vista com algumas características excelentes. Tem uma grande tela de 5.99 polegadas com uma resolução de 2160x1080 pixels. As funcionalidades oferecidas pelo Xiaomi Mi Mix 2 são muitas e inovadoras. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet. Enfatizamos a excelente memória interna de 256 GB mas sem a possibilidade de expansão.
+Respeitável a câmera de 12 megapixels que permite ao Xiaomi Mi Mix 2 tirar fotos com uma resolução de 4032x3024 pixels e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels. Muito fino, 7.7 milímetros, o que torna o Xiaomi Mi Mix 2 realmente interessante.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Xiaomi_MI_Mix_2</IRI>
+        <Literal>Xiaomi Mi Mix 2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Xiaomi_QIN_AI_Pro</IRI>
+        <Literal>https://www.tudocelular.com/Xiaomi/fichas-tecnicas/n5949/Xiaomi-Qin-AI-Pro.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Xiaomi_QIN_AI_Pro</IRI>
+        <Literal>https://t.tudocdn.net/504311?w=127&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Xiaomi_QIN_AI_Pro</IRI>
+        <Literal>O Xiaomi Qin AI Pro é um smartphone Android mediano, ideal para quem não tem muitas exigências mas não abre mão de um bom display touchscreen. As funções oferecidas pelo Xiaomi Qin AI Pro são mais ou menos as mesmas oferecidas em outros dispositivos avançados, começando com a conectividade Wi-fi e GPS. Tem leitor multimídia e bluetooth. Enfatizamos a boa memória interna de 32 GB mas sem a possibilidade de expansão. A transferência de dados e navegação web sao fornecidas pela rede UMTS, mas não suporta tecnologias mais recentes, tais como HSDPA.
+Tem uma grande tela Touchscreen de 5.05 polegadas com uma resolução de 1440x576 pixels. Câmera de 5 megapixels que permite ao Xiaomi Qin AI Pro tirar fotos de alta qualidade com uma resolução de 2582x1936 pixels. Muito fino, 8.6 milímetros, o que torna o Xiaomi Qin AI Pro realmente bom para o transporte.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Xiaomi_QIN_AI_Pro</IRI>
+        <Literal>Xiaomi Qin AI Pro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Zenfone_Max_Shot</IRI>
+        <Literal>https://www.tudocelular.com/Asus/fichas-tecnicas/n5371/Asus-ZenFone-Max-Shot.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Zenfone_Max_Shot</IRI>
+        <Literal>https://t.tudocdn.net/383068?w=145&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Zenfone_Max_Shot</IRI>
+        <Literal>O Asus ZenFone Max Shot é um smartphone Android de bom nível, ótimo para fotos, que pode satisfazer até o mais exigente dos usuários. Tem uma enorme tela Touchscreen de 6.26 polegadas com uma resolução de 2280x1080 pixel. Sobre as características deste Asus ZenFone Max Shot na verdade não falta nada. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS. Tem também leitor multimídia, rádio, videoconferência e bluetooth. Enfatizamos a boa memória interna de 32 GB com a possibilidade de expansão.
+O Asus ZenFone Max Shot é um produto com poucos concorrentes em termos de multimídia graças à câmera de 12 megapixels que permite ao Asus ZenFone Max Shot tirar fotos de alta qualidade com uma resolução de 4000x3000 pixels e gravar vídeos em alta definição (Full HD) com uma resolução de 1920x1080 pixels. Muito fino, 8.5 milímetros, o que torna o Asus ZenFone Max Shot realmente interessante.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Zenfone_Max_Shot</IRI>
+        <Literal>Asus ZenFone Max Shot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Zenfone_Zoom</IRI>
+        <Literal>https://www.tudocelular.com/Asus/fichas-tecnicas/n2786/Asus-ZenFone-Zoom.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Zenfone_Zoom</IRI>
+        <Literal>https://t.tudocdn.net/109974?w=154&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Zenfone_Zoom</IRI>
+        <Literal>O Asus ZenFone Zoom é um smartphone Android de bom nível, ótimo para fotos, que pode satisfazer até o mais exigente dos usuários. Tem uma grande tela Touchscreen de 5.5 polegadas com uma boa resolução de 1920x1080 pixels. Sobre as características deste Asus ZenFone Zoom na verdade não falta nada. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS. Tem também leitor multimídia, videoconferência e bluetooth. Enfatizamos a boa memória interna de 128 GB com a possibilidade de expansão.
+O Asus ZenFone Zoom é um produto com poucos concorrentes em termos de multimídia graças à câmera de 13 megapixels que permite ao Asus ZenFone Zoom tirar fotos fantásticas com uma resolução de 4128x3096 pixels e gravar vídeos em alta definição (Full HD) com uma resolução de 1920x1080 pixels.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Zenfone_Zoom</IRI>
+        <Literal>Asus ZenFone Zoom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#Zenfone_Zoom_S</IRI>
+        <Literal>https://www.tudocelular.com/Asus/fichas-tecnicas/n4157/Asus-ZenFone-Zoom-S.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#Zenfone_Zoom_S</IRI>
+        <Literal>https://t.tudocdn.net/347314?w=152&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Zenfone_Zoom_S</IRI>
+        <Literal>O Asus ZenFone Zoom S é um smartphone Android de bom nível, ótimo para fotos, que pode satisfazer até o mais exigente dos usuários. Tem uma grande tela Touchscreen de 5.5 polegadas com uma boa resolução de 1920x1080 pixels. Sobre as características deste Asus ZenFone Zoom S na verdade não falta nada. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS. Tem também leitor multimídia, rádio, videoconferência e bluetooth. Enfatizamos a boa memória interna de 32 GB com a possibilidade de expansão.
+O Asus ZenFone Zoom S é um produto com poucos concorrentes em termos de multimídia graças à câmera de 12 megapixels que permite ao Asus ZenFone Zoom S tirar fotos de alta qualidade com uma resolução de 4608x2592 pixels e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels. Muito fino, 8 milímetros, o que torna o Asus ZenFone Zoom S realmente interessante.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Zenfone_Zoom_S</IRI>
+        <Literal>Asus ZenFone Zoom S</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#iPhone_11</IRI>
+        <Literal>https://www.tudocelular.com/Apple/fichas-tecnicas/n5753/Apple-iPhone-11.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#iPhone_11</IRI>
+        <Literal>https://t.tudocdn.net/492959?w=152&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#iPhone_11</IRI>
+        <Literal>O Apple iPhone 11 é um dos smartphones iOS mais avançados e completos que existem em circulação. Tem um grande display de 6.1 polegadas com uma resolução de 1792x828 pixel. As funcionalidades oferecidas pelo Apple iPhone 11 são muitas e inovadoras. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet. Enfatizamos a excelente memória interna de 512 GB mas sem a possibilidade de expansão.
+Câmera discreta de 12 megapixel mas que permite ao Apple iPhone 11 tirar fotos de boa qualidade com uma resolução de 4000x3000 pixel e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#iPhone_11</IRI>
+        <Literal>Apple iPhone 11</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#iPhone_6s</IRI>
+        <Literal>https://www.tudocelular.com/Apple/fichas-tecnicas/n2968/Apple-iPhone-6S.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#iPhone_6s</IRI>
+        <Literal>https://t.tudocdn.net/143323?w=149&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#iPhone_6s</IRI>
+        <Literal>O Apple iPhone 6S é um smartphone iOS de bom nível, ótimo para fotos, que pode satisfazer até o mais exigente dos usuários. Tem uma tela Touchscreen de 4.7 polegadas com uma resolução de 1334x750 pixels. Sobre as características deste Apple iPhone 6S na verdade não falta nada. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS. Tem também leitor multimídia, videoconferência e bluetooth. Enfatizamos a boa memória interna de 128 GB mas sem a possibilidade de expansão.
+O Apple iPhone 6S é um produto com poucos concorrentes em termos de multimídia graças à câmera de 12 megapixels que permite ao Apple iPhone 6S tirar fotos de alta qualidade com uma resolução de 4608x2592 pixels e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels. Muito fino, 7.1 milímetros, o que torna o Apple iPhone 6S realmente interessante.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#iPhone_6s</IRI>
+        <Literal>Apple iPhone 6S</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#iPhone_8_Plus</IRI>
+        <Literal>https://www.tudocelular.com/Apple/fichas-tecnicas/n3689/Apple-iPhone-8-Plus.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#iPhone_8_Plus</IRI>
+        <Literal>https://t.tudocdn.net/287927?w=150&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#iPhone_8_Plus</IRI>
+        <Literal>O Apple iPhone 8 Plus é um dos smartphones iOS mais avançados e completos que existem em circulação. Tem um grande display de 5.5 polegadas com uma resolução de 1920x1080 pixel. As funcionalidades oferecidas pelo Apple iPhone 8 Plus são muitas e inovadoras. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet. Enfatizamos a excelente memória interna de 256 GB mas sem a possibilidade de expansão.
+Câmera discreta de 12 megapixel mas que permite ao Apple iPhone 8 Plus tirar fotos de boa qualidade com uma resolução de 4608x2592 pixel e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels. A espessura de 7.5mm torna o Apple iPhone 8 Plus um dos telefones mais completos e finos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#iPhone_8_Plus</IRI>
+        <Literal>Apple iPhone 8 Plus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/source"/>
+        <IRI>#iPhone_XS_Max</IRI>
+        <Literal>https://www.tudocelular.com/Apple/fichas-tecnicas/n4821/Apple-iPhone-XS-Max.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#image"/>
+        <IRI>#iPhone_XS_Max</IRI>
+        <Literal>https://t.tudocdn.net/360572?w=150&amp;h=304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#iPhone_XS_Max</IRI>
+        <Literal>O Apple iPhone XS Max é um dos smartphones iOS mais avançados e completos que existem em circulação. Tem um grande display de 6.5 polegadas com uma resolução de 2688x1242 pixel. As funcionalidades oferecidas pelo Apple iPhone XS Max são muitas e inovadoras. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet. Enfatizamos a excelente memória interna de 512 GB mas sem a possibilidade de expansão.
+Câmera discreta de 12 megapixel mas que permite ao Apple iPhone XS Max tirar fotos de boa qualidade com uma resolução de 4608x2592 pixel e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels. A espessura de 7.7mm torna o Apple iPhone XS Max um dos telefones mais completos e finos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#iPhone_XS_Max</IRI>
+        <Literal>Apple iPhone XS Max</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://schema.org/domainIncludes"/>
+        <IRI>#image</IRI>
+        <IRI>#Thing</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://schema.org/rangeIncludes"/>
+        <IRI>#image</IRI>
+        <IRI>#Image</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://schema.org/rangeIncludes"/>
+        <IRI>#image</IRI>
+        <IRI>#URL</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#image</IRI>
+        <Literal>An image of the item. This can be a &lt;a class=&quot;localLink&quot; href=&quot;http://schema.org/URL&quot;&gt;URL&lt;/a&gt; or a fully described &lt;a class=&quot;localLink&quot; href=&quot;http://schema.org/ImageObject&quot;&gt;ImageObject&lt;/a&gt;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#image</IRI>
+        <Literal>image</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
